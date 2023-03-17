@@ -10,5 +10,6 @@ namespace BoardNet.Models
         public DateTime Date { get; set; }
         public string? Gender { get; set; }
         public decimal Age { get; set; }
+        public string? Password { get; set; }
     }
 }
